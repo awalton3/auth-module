@@ -32,7 +32,9 @@ var argv = yargs.argv,
   templates = ['src/app/**/*.html'],
   modules = [
     'angular/angular.js',
-    '@uirouter/angularjs/release/angular-ui-router.js'
+    '@uirouter/angularjs/release/angular-ui-router.js',
+    'parse/dist/parse.min.js',
+    'angular-parse/angular-parse.js'
   ]; // these are 3rd party libraries in the node_modules folder NOT *.module.js files
 
 /* utility function to generate Unix DateTime Stamp */

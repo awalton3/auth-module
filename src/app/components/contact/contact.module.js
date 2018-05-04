@@ -1,4 +1,4 @@
-angular
-  .module('components.contact', [
-    'ui.router'
-  ]);
+// angular
+//   .module('components.contact', [
+//     'ui.router'
+//   ]);
